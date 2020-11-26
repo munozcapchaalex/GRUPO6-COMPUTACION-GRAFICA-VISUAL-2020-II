@@ -1,9 +1,3 @@
-//============================================================================
-// Name        : Simple Animation using UtilClass
-// Professor   : Herminio Paucar
-// Version     :
-// Description :
-//============================================================================
 
 // Include standard headers
 #include <stdio.h>
@@ -103,7 +97,7 @@ int main(void) {
 	glfwWindowHint(GLFW_OPENGL_FORWARD_COMPAT, GL_TRUE);     //
 	glfwWindowHint(GLFW_RESIZABLE, GL_FALSE); 	// Resizable option.
 
-	GLFWwindow* window = glfwCreateWindow(W_WIDTH, W_HEIGHT, "LabShader01: Draw simple circle", NULL, NULL);	glfwMakeContextCurrent(window);
+	GLFWwindow* window = glfwCreateWindow(W_WIDTH, W_HEIGHT, "Tarea 03", NULL, NULL);	glfwMakeContextCurrent(window);
 	if (glewInit() != GLEW_OK) {
 		exit(EXIT_FAILURE);
 	}

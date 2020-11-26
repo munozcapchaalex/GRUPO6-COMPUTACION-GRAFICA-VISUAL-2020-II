@@ -521,4 +521,4 @@ void main(void)
 	if(x<2 &&  x>-2 ){ // radio 10
   		color_final = blanco;
   	}
-}
+ }
